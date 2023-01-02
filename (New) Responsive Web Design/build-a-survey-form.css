@@ -1,0 +1,59 @@
+html {
+  background-color: rgb(200, 207, 250);
+}
+
+.title {
+  font-family: Tahoma;
+  margin: 20px auto;
+  color: rgb(127, 150, 150);
+  text-align: center;
+}
+
+h1 .title {
+  font-size: 3em;
+}
+
+fieldset {
+  border: none;
+}
+
+form {
+  background-color: rgb(150, 0, 150);
+  color: rgb(255, 255, 255);
+  min-width: 300px;
+  width: 80%;
+  margin: 0 auto;
+  font-family: sans-serif;
+  padding-bottom: 5px;
+}
+p {
+  margin: 0;
+}
+label, input, select {
+  display: block;
+}
+
+input[name="recommend"], input[type="checkbox"] {
+  display: inline;
+}
+
+label[for="comment"] {
+  margin-left: 10px
+}
+textarea {
+  display: block;
+  /*margin-left: 10px;*/
+}
+
+
+
+button {
+  display: block;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  font-size: 1em;
+  min-width: 50px;
+  padding: 10px 30px;
+}
