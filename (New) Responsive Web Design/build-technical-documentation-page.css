@@ -1,0 +1,95 @@
+/* general */
+body {
+  font-family: sans-serif;
+  color: #777777;
+}
+/* headers */
+#navbar header {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #000066;
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.main-section header {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #000066;
+  font-family: Verdana, sans-serif;
+  margin: 20px 0;
+}
+
+/* main blocks */
+#main-doc {
+  position: absolute;
+  top: 0;
+  left: 350px;
+  border-left: solid 2px grey;
+  padding: 0 20px;
+}
+
+
+nav {
+  width: 350px;
+  font-size: 1.0rem;
+  color: #000066;
+  font-family: Verdana, sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 700px) {
+  #main-doc {
+    position: relative;
+    border: none;
+    /*min-width: 350px;*/
+    width: 90%;
+    margin: auto;
+    left: 0;
+  }
+  nav {
+    position: relative;
+    width: 100%;
+    min-width: 350px;
+  }
+  .nav-container {
+    position: relative;
+    width: 100%;
+    min-width: 350px;
+    height: 250px;
+    overflow: auto;
+  }
+}
+
+/* Elements */
+.nav-div {
+  border-top: solid 2px grey;
+  padding: 20px 20px;
+
+}
+
+.nav-link  {
+  outline: none;
+  text-decoration: none;
+  color: #000066;
+} 
+
+.quote {
+  background-color: #eeeeee;
+  padding: 0.5rem 1rem;
+  white-space: pre;
+  line-height: 1.5;
+}
+
+
+ul {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+li {
+  padding-top: 15px;
+}
